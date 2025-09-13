@@ -8,13 +8,19 @@
 ## Структура проекта
 ```
 project/
-├── conftest.py          # Фикстуры pytest
-├── data.py              # Тестовые данные и константы
-├── helpers.py           # Вспомогательные функции
-├── test_advert.py       # Тесты для работы с объявлениями
-├── test_user.py         # Тесты для работы с пользователями
-├── advert_methods.py    # API методы для работы с объявлениями
-└── user_methods.py      # API методы для работы с пользователями
+├── assets/
+│ ├── bread.png
+│ └── bread2.jpg
+├── tests/
+│ ├── test_advert.py
+│ └── test_user.py
+├── methods/
+│ ├── advert_methods.py
+│ └── user_methods.py
+├── conftest.py
+├── helpers.py
+├── data.py
+└── requirements.txt
 ```
 
 ## Тестовые классы
